@@ -98,12 +98,12 @@ details p{margin:10px 0 0;color:var(--soft)}
 .cta .tel{display:block;margin-top:22px;font-size:1.3rem;color:#fff}
 footer{padding:30px 0 100px;text-align:center;font-size:.9rem;color:var(--soft)}
 .float{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;box-shadow:0 6px 18px rgba(0,0,0,.25)}
-.photo{width:100%;display:block;border-radius:22px;object-fit:cover;background:var(--line)}
+.photo{width:100%;height:auto;display:block;border-radius:22px;object-fit:cover;background:var(--line)}
 .about .photo{aspect-ratio:840/966;object-position:50% 20%;margin-top:24px}
 .natwrap{display:grid;gap:24px}
-.natwrap .photo{aspect-ratio:1/1;object-position:50% 70%}
+.natwrap .photo{aspect-ratio:3/4;object-position:50% 85%}
 .natwrap .grid{grid-template-columns:1fr}
-@media(min-width:800px){.natwrap{grid-template-columns:4fr 7fr;align-items:start}.natwrap .photo{aspect-ratio:4/5;position:sticky;top:84px}}
+@media(min-width:800px){.natwrap{grid-template-columns:4fr 7fr;align-items:start}.natwrap .photo{aspect-ratio:3/4;object-position:50% 85%;position:static}}
 .social{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 22px;margin:0 0 14px}
 .social a{color:var(--rose);font-weight:600}
 .cardimg{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px;display:block;margin-bottom:6px;background:var(--line)}
